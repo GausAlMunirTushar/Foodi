@@ -5,6 +5,9 @@
   color: $secondary-color;
 }
 
+body {
+  scroll-behavior: smooth;
+}
 /* Section Styling */
 
 .navbar-section {
@@ -78,6 +81,36 @@
     text-decoration: none;
     color: $text-para;
 }
-.footer-section h4 {
+.footer-section h5 {
     margin-left: 30px;
+}
+
+.icons-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  background: $primary-color;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0px 5px
+}
+.icon-box-light {
+  background: $box-bg-color;
+  color: #000;
+}
+
+
+
+/* Contact Us Page Style */
+
+.contact__us-form input, textarea {
+  display: block;
+  width: 100%;
+}
+.nav-menu-icons > i{
+  font-size: 22px;
+  margin: 0px 12px;
 }
