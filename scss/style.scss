@@ -127,16 +127,26 @@ body {
   border-radius: 10px;
 }
 input[type="search"] {
-  border: none
+  border: 1px solid $primary-color
 }
 input[type="search"]:focus {
  outline: none;
 }
+.serach-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .search-btn {
   border: 1px solid $primary-color;
   padding: 5px 10px;
-  border-radius: 7px;
   cursor: pointer;
+}
+.menu-search {
+  background: $primary-color;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
 }
 /* menu */
 .single__dish {
