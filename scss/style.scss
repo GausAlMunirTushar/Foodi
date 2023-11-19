@@ -95,7 +95,7 @@ body {
   background: $primary-color;
   color: #fff;
   border-radius: 50%;
-  margin: 0px 5px
+  margin: 0px 5px;
 }
 .icon-box-light {
   background: $box-bg-color;
@@ -109,8 +109,19 @@ body {
 .contact__us-form input, textarea {
   display: block;
   width: 100%;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+}
+.contact__us-form input[type="button"] {
+  border: none;
 }
 .nav-menu-icons > i{
   font-size: 22px;
   margin: 0px 12px;
+}
+.map {
+  width: 100%;
+  height: 100%;
 }
